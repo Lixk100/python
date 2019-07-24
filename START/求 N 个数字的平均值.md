@@ -1,7 +1,7 @@
 # 实验步骤  
 命令行模式 `$vim average.py`   
 按i进入插入模式  
-(```
+```python
 #!/usr/bin/env python3
 N = 10
 sum = 0
@@ -14,4 +14,4 @@ while count < N:
 average = sum / N
 print("N = {}, Sum = {}".format(N, sum))
 print("Average = {:.2f}".format(average))
-```)
+```
