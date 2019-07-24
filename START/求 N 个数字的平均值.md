@@ -19,4 +19,19 @@ print("Average = {:.2f}".format(average))
 - 按esc进入普通模式  
 - 进入命令行模式：wq保存退出  
 - 加执行权限  
-`$sudo chmod +x average.py` 
+`$sudo chmod +x average.py`   ~~(也可以不加sudo)~~  
+- 执行文件  `$./average.py`  
+```python
+1.2
+3.4
+3.5
+33.2
+2
+4
+6
+2.4
+4
+5.5
+N = 10, Sum = 65.2
+Average = 6.52
+```
